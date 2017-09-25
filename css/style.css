@@ -13,9 +13,9 @@ body {
 .content {
   margin: auto;
   padding: 20px;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .slick-slider {
@@ -90,7 +90,7 @@ body {
 .quote-container .quote {
   position: relative;
   z-index: 600;
-  padding: 40px 0 40px 40px;
+  padding: 25px 0 25px 25px;
   margin: 0;
   font-size: 20px;
   font-style: italic;
