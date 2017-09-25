@@ -645,15 +645,12 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
+    background: linear-gradient(130deg, #07d9a3, #048fee);
+  background-size: 400% 400%;
 
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
+  -webkit-animation: gradient 16s ease infinite;
+  -moz-animation: gradient 16s ease infinite;
+  animation: gradient 16s ease infinite;
 }
 #testimonials .text-container {
    padding-top: 96px;
