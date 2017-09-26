@@ -43,6 +43,11 @@ img {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
+.blog-item a:focus {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
 
 .blog-item .icon {
     width: 35%;
@@ -100,6 +105,14 @@ img {
 }
 
 .blog-item a:hover > .item-arrow {
+    /*padding-left: 40px;*/
+    color: #25aae1;
+    left: 30px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.blog-item a:focus > .item-arrow {
     /*padding-left: 40px;*/
     color: #25aae1;
     left: 30px;
